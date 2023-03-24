@@ -52,7 +52,7 @@ Scanner leia = new Scanner(System.in);
 
 	public static void sobre() {
 		System.out.println("Calculadora com Métodos");
-		System.out.println("Rafael Queiróz");
+		System.out.println("Gabriel Machado");
 	}
 }
 
