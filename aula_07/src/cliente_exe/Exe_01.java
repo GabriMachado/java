@@ -13,7 +13,14 @@ public class Exe_01 {
 			
 		  Cliente g2 = new Cliente ("Gabriel Machado", 22 , "123.456.789-11" , data , 1.80 );
 		  g2.visualizar();
+		  
+		  PessoaFisica pf1 = new PessoaFisica ("Anitta Machado", 30 , "123.456.789-10" , data , 1.50, "PF");
+		  pf1.visualizar();
 	
+		  PessoaJuridica pj1 = new PessoaJuridica ("Gabriel Machado", 22 , "123.456.789-10" , data , 1.80, "PJ" , "MEI");
+		  pj1.visualizar();
+		  
+		  
 	}
 
 }

@@ -62,15 +62,14 @@ public class Cliente {
 	}
 	
 	public void visualizar () {
-		System.out.println("\n***********************************");
+		System.out.println("*************************************");
 		System.out.println("        Informações Pessoais"         );
 		System.out.println("*************************************" );
 		System.out.println("* Paciente: " + this.nomeCompleto     );
 		System.out.println("* Idade: " + this.idade + " anos."  );
 		System.out.println("* CPF - " + this.CPF               );
 		System.out.println("* Data de nascimento:" + this.dataNascimento.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")));
-
-		System.out.println("* Altura: " + this.altura        );
+        System.out.println("* Altura: " + this.altura        );
 
 	}
 	

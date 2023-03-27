@@ -14,6 +14,7 @@ public class Funcionario {
 		this.matricula = matricula;
 		this.salario = salario;
 		this.idade = idade;
+		
 	}
 
 	public String getNome() {
@@ -59,14 +60,14 @@ public class Funcionario {
 	public void visualizar() {
 		
 		System.out.println("******************************************");
-		System.out.println("             Funcionario				  ");
+		System.out.println("             Funcionário				  ");
 		System.out.println("******************************************");
 		System.out.println("Nome: " + this.nome);
 		System.out.println("Cargo: "+ this.cargo);
 		System.out.println("Matricula: "+ this.matricula);
 		System.out.println("Salário: " + this.salario);
 		System.out.println("Idade: " + this.idade);
-		System.out.println("******************************************");
+		
 	}
 	
 }
