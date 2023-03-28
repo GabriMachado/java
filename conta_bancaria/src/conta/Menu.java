@@ -18,8 +18,6 @@ public class Menu {
 			String titular;
 			float saldo, limite, valor;
 			
-			Conta c1 = new Conta(1, 123, 1, "Jeniffer Souza", 100000.00f);
-			c1.visualizar();
 			
            ContaCorrente cc1 = new ContaCorrente (1, 123, 1, "Gabriel Machado", 100000.00f, 1000.00f);
            cc1.visualizar();
